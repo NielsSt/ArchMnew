@@ -13,9 +13,9 @@ set -e
 
 
 
-sudo pacman -S cups cups-pdf ghostscript gsfonts libcups hplip system-config-printer --noconfirm --needed
-sudo pacman -S epson-inkjet-printer-escpr epson-inkjet-printer-escpr2
-sudo pacman -S gutenprint
+sudo pacman -S cups cups-pdf ghostscript gsfonts libcups system-config-printer --noconfirm --needed
+sudo pacman -S epson-inkjet-printer-escpr epson-inkjet-printer-escpr2 --noconfirm --needed
+sudo pacman -S gutenprint --noconfirm --needed
 #sudo pacman -S mtink
 #sudo pacman -S Stylus-toolbox
 systemctl enable org.cups.cupsd.service

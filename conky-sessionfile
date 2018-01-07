@@ -1,0 +1,3 @@
+conky -c /home/niels/.conkyrc & sleep 1s
+conky -c /home/niels/.config/conky/AM-logos.conkyrc & sleep 1s
+conky -c /home/niels/.config/conky/JA-Thin-Time.conkyrc & sleep 1s

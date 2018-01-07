@@ -5,8 +5,8 @@ use Text::Wrap;
 
 my $what=$ARGV[0];
 
-$user="<Niels Stjernborg>"; #username for gmail account
-$pass="<N>"; #password for gmail account
+$user="<user>"; #username for gmail account
+$pass="<pass>"; #password for gmail account
 $file="/tmp/gmail.html"; #temporary file to store gmail
 
 #wrap format for subject
